@@ -1,0 +1,455 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.index{
+    background-image: url(../img/superheroes-marvel-dc\ \(1\).jpg);
+}
+.blog{
+    background-image: url(../img/zack-snyder-scaled-e1617624018344.jpg);
+}
+.tienda{
+    background-image: url(../img/los-companeros-de-superheroes-mas-poderosos-que-su-mentor.jpg);
+    min-height:1480px;
+}
+.galeria{
+    background-image: url(../img/Los-7-superhéroes-más-guapos.jpg);
+    background-position: top center;
+    background-size: cover;
+    min-height:300px;
+}
+.sobre{
+    background-image: url(../img/dcaa0f3a21384abfb98e779455c41a5a.jpg);
+    background-position: top center;
+    background-size: cover;
+    min-height:700px;
+}
+footer{
+  background-color:#353535;
+  color:white;
+}
+.registro{
+    background-color: bisque;
+    border: 2px solid black;
+}
+.orden{
+    background-color: bisque;
+    border: 2px solid black;
+}
+.post1{
+    width: 90%;
+    text-align: center;
+    margin:auto;
+    border-radius: 20px;
+    border:2px solid black;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    background-color: bisque;
+    overflow: hidden;
+}
+.blog2{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+.comentario{
+    background-color: bisque;
+    width:60%;
+}
+.comentario2{
+  width:60%;
+  border:none;
+}
+.flex-orden{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.mapa{
+  height:400px;
+  width: 600px;
+}
+header{
+  width:100%;
+}
+div.hero {
+    background-image: url(../img/superheroes.jpg);
+    height: 500px;
+    background-position: top center;
+    background-size: cover;
+  }
+  div.contenido-header {
+    padding-top: 40px;
+  }
+  @media only screen and (min-width:650px) {
+    div.contenido-header {
+      padding-top: 10px;
+    }
+  }
+  nav.redes-sociales {
+    text-align: center;
+  }
+  nav.redes-sociales a {
+    color: #ffffff;
+    font-size: 2em;
+    margin-right: 20px;
+  }
+  nav.redes-sociales a:last-child {
+    margin-right: 0;
+  }
+  div.informacion-evento {
+    text-align: center;
+    color: #ffffff;
+  }
+  @media only screen and (min-width:650px) {
+    div.informacion-evento {
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+  div.informacion-evento p {
+    margin: 0;
+    display: inline;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  div.informacion-evento p i {
+    color: #9C091B;
+  }
+  p.fecha {
+    float: left;
+  }
+  p.ciudad {
+    float: right;
+    text-align: right;
+  }
+
+/** Barra **/
+ div.barra {
+  background-color:#353535;
+  padding: 20px 0;
+  min-height:120px;
+}
+div.logo {
+  width: 60%;
+  float: left;
+  margin-bottom:10px;
+}
+div.logo img {
+  width: 50%;
+  display:block;
+  margin:auto;
+}
+@media only screen and (min-width:650px) {
+  div.logo {
+    width: 33%;
+  }
+}
+
+/** Nav principal **/
+nav.navegacion-principal {
+  display: none;
+  width:100%;
+}
+nav.navegacion-principal a {
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all .3s ease;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  clear: both;
+}
+nav.navegacion-principal a:hover {
+  background-color: #9C091B;
+}
+nav.navegacion-principal a:last-child {
+  border: 2px solid #9C091B;
+  color: #9C091B;
+}
+nav.navegacion-principal a:last-child:hover {
+  color: #ffffff;
+}
+@media only screen and (min-width:650px) {
+  nav.navegacion-principal {
+    width: 66%;
+    float: right;
+    text-align: right;
+    display: block;
+  }
+  nav.navegacion-principal a {
+    padding: 10px;
+    line-height: 3em;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: 0 10px 0 0;
+  }
+}
+
+/** Menu Movil **/
+
+div.menu-movil {
+    width: 60px;
+    display: block;
+    float: right;
+    text-align: right;
+    margin-top: 12px;
+  }
+div.menu-movil span {
+    height: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+    display: block;
+  }
+div.menu-movil:hover {
+  cursor: pointer;
+}
+@media only screen and (min-width:650px) {
+    div.menu-movil {
+      display: none;
+    }
+}
+.comentarios-ocultos{
+    display:none;
+}
+.post1 img{
+  width:500px;
+  height:500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.comentario{
+  text-align:center;
+  padding: 20px;
+}
+.comentario2{
+  text-align:center;
+  padding:20px;
+}
+.orden img{
+  width:200px;
+  height:200px;
+}
+#datos_usuario{
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  text-align: center;
+  border:none;
+}
+.orden{
+  text-align: center;
+  margin-top:20px;
+  margin-bottom: 20px;
+  border:none;
+  width:30%;
+}
+
+.blog2.post1{
+  padding:30px;
+}
+.formulario{
+  text-align: center;
+  width: 70%;
+  min-height:600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:2px solid black;
+  border-radius: 20px;
+  background-color: bisque;
+  overflow: hidden;
+}
+input{
+  width: 100px;
+  height: 30px;
+  margin: auto;
+}
+
+.index2{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.reglas{
+  width:20%;
+}
+.reglas2{
+  width:20%;
+}
+.principal{
+  width:40%;
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.informacion{
+  border:1px solid black;
+  background-color: white;
+}
+.informacion img{
+  width:100px;
+  height:100px;
+}
+.reglas-tabla{
+  height:390px;
+  border:2px solid black;
+  border-radius:20px;
+  background-color: black;
+  color:blanchedalmond
+}
+.boton{
+  width: 10%;
+}
+
+.nosotros{
+  border:2px solid white;
+  background-color: black;
+  color:blanchedalmond;
+  text-align: center;
+  width: 300px;
+  height:300px;
+  padding:20px;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+h1{
+  color:white;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-align: center;
+  font-size:25px;
+}
+h2{
+  color:black;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-align: center;
+  font-size:25px;
+}
+p{
+  text-align: center;
+}
+.blanco{
+  color:white
+}
+body{
+  font-family: 'Baloo Tammudu 2';
+  font-size:17px;
+}
+.blog0{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.blog2{
+  width:70%;
+}
+.tienda2{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.sobre2{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.galeria2{
+  display:flex;
+  justify-content: center;
+}
+footer.info-testimonial {
+  padding: 0;
+}
+footer.info-testimonial img {
+  width: 181px;
+  height: 283px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+footer.info-testimonial cite {
+  text-align: left;
+  color: #6F0915;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 200px;
+  width: 30%;
+  float: right;
+  font-weight: bold;
+  font-style: normal;
+}
+footer.info-testimonial cite span {
+  color: #000000;
+  display: block;
+  text-transform: none;
+  margin-top: 5px;
+}
+.blog2 img{
+  width:500px;
+  height:500px;
+}
+@media only screen and (max-width:650px) {
+  .reglas {
+    display:none;
+  }
+  .reglas2 {
+    display:none;
+  }
+  .principal{
+    width:60%;
+  }
+  .blog2{
+    width:60%;
+  }
+  .formulario{
+    width:50%;
+  }
+  .post1{
+    width:95%;
+  }
+  .post1 img{
+    width:200px;
+    height:200px;
+  }
+  .nosotros{
+    width:200px;
+    height:200px;
+  }
+  .mapa{
+    height:300px;
+    width:500px;
+    overflow: hidden;
+  }
+  .flex-orden{
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .sobre2{
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+  .reglas-tabla{
+    display:none;
+  }
+}
+.informacion2{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
